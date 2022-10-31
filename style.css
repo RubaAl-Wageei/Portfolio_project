@@ -81,10 +81,10 @@ section {
     text-decoration: none;
 }
 
-.botton a:hover {
+/* .botton a:hover {
     transform: scale(1.1);
     transition: 0.7s ease;
-}
+} */
 
 .img_about {
     /* width: 100vw; */
@@ -344,6 +344,8 @@ section {
 .social_media a:hover {
     color: #7F5D85;
 }
+
+
 
 /* @media screen and (min-width:360px;) {
     header {
