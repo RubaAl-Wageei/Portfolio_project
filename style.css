@@ -168,18 +168,13 @@ section {
     margin:20px
 }
 
-/* .cartoon:hover {
-    transform: scale(1.1);
-    transition: 0.7s ease;
-} */
-
-.code {
-    text-align: center;
-}
-
 .icon {
     color: #BF86AE;
     font-size: 100px;
+    text-align: center;
+}
+
+.code {
     text-align: center;
 }
 
@@ -199,16 +194,16 @@ section {
     padding-bottom: 15px;
     align-items: center !important;
     justify-content: center !important;
-    background-size: cover;
+    /* background-size: cover; */
     /* background-color: #CFD1DF; */
 
 }
 
 .container {
-    width: 100%;
+    /* width: 100%;
     padding: 0px 15px;
     margin-right: 60px;
-    margin-left: auto;
+    margin-left: auto; */
 }
 
 .row {
@@ -220,9 +215,11 @@ section {
 
 .col-lg-6 {
     flex: 0 0 50%;
-    max-width: 50%;
-    /* border: 2px solid white; */
-    /* border-radius: 100px; */
+    max-width: 45%;
+    border: 2px solid #474559;
+    border-radius: 100px;
+    padding: 60px;
+    margin: 20px;
 }
 
 .timeline-wrapper {
